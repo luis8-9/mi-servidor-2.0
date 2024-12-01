@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA0NTA2NTU2OSwKICAicHJvZmlsZUlkIiA6ICJlZGM3NThiMzJmNGU0YTkxODMwYjNmNzQyZTM1Yjc5YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdWlzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhYWYwYjM0ZWFkZmI5YjM2ODM0MGM4YTU5ZWQyMjY5ODNmM2JhM2VkZDY3NmNhYmJkOTFiMWIzODg1ZTM2NzQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9",
+    "signature": "oX9YtAuZIj/cGIlV8FW/EVxRsITFNkR5cMNa++wTbzPpE5zjpKmYiNfSBrq2BIJfXF16fhI5PLFaHgQZT4GquMkpNJhMcTPkNHuhzlxj0LfoizhjIt5/fr2LCsoMQq/wSMEKAma2pps4qzR6PaN1ot76N4BNpgoxSEqYpKBaH7Zs7i7ff8LYpQhUSatkmMpyGefpHrJXmqtsWrvqhoyETGXytIjbxW9swh7cby8KaCQKDd0Dd91MvlcZgQw29uyu/aBcWxTmb9kXO3rh9E4gSe4tRNIxrt6fxG4GzucLRrqsjklYuEM+eycH/TI847pic38sRSnqoXy5uXUGNr7VN6hPoTZfbWCctBaXm2cFW08FzzIFOfLmCN9Zh9Io2/nBn/hTZTJI3f5lVe9v8pFPVtYs7THYV5+FYuRPINWdP/hp27d5V/uzpnyNB1dAi2ASHAHQFvY9peYPqxwffXERWch8k4X/9oA1D1bndiy4TpwFlkgFHYrxOVVXXEBnbVOn82ZBq9PhB/TqbuGWHL5y3gosoUg5lMX5jFn5wELjs1OM3fcEFPTmZ9042OH8kBfEvw0lWd2t2BIkJsVdxC0T4glcXIDTptlJu4ZG4r/2rryEtnI4S+/Mh12wHwahz0y8iygeaA1/1JI+hjnoVc20UXaqu6nwRKDdNlI8B6zZvEs=",
+    "skinName": "LUIS",
+    "location": {
+      "world": "spawn",
+      "x": -633.5,
+      "y": -13.0,
+      "z": 471.5,
+      "yaw": -1.2349396,
+      "pitch": -1.5393677
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&a&SURVIVAL"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]

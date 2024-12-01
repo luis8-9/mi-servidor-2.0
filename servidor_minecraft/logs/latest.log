@@ -1,406 +1,200 @@
-[20:34:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[20:34:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[20:34:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:34:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar'...
-[20:34:47] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Multiverse-Core-4.3.1.jar'...
-[20:34:47] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar'...
-[20:34:47] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/EssentialsXSpawn-2.17.0.0.jar'...
-[20:34:47] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EssentialsXSpawn-2.17.0.0.jar' in 388ms.
-[20:34:48] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Multiverse-Core-4.3.1.jar' in 1047ms.
-[20:34:48] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar' in 1141ms.
-[20:34:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar' in 2594ms.
-[20:34:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[20:34:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - Essentials (2.21.0-dev+144-d31ff55), EssentialsSpawn (2.17.0.0), GUIAdminTools (2.5.5), Geyser-Spigot (2.5.0-SNAPSHOT), Multiverse-Core (4.3.1-b861), ViaVersion (5.1.1), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[20:34:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:34:55] [ServerMain/INFO]: Loaded 1337 recipes
-[20:34:55] [ServerMain/INFO]: Loaded 1448 advancements
-[20:34:55] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[20:34:55] [Server thread/INFO]: Loading properties
-[20:34:55] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[20:34:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:34:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:34:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:34:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:34:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:34:57] [Server thread/INFO]: Default game type: SURVIVAL
-[20:34:57] [Server thread/INFO]: Generating keypair
-[20:34:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:34:57] [Server thread/INFO]: Using epoll channel type
-[20:34:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:34:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:34:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
-[20:34:58] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[20:34:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3164d4e7]
-[20:34:59] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[20:34:59] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:35:00] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[20:35:00] [Server thread/INFO]: [floodgate] Took 550ms to boot Floodgate
-[20:35:00] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[20:35:00] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[20:35:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:35:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:35:01] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.17.0.0
-[20:35:01] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
-[20:35:01] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[20:35:01] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[20:35:01] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:35:01] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:35:01] [Server thread/INFO]: [GUIAdminTools] Loading server plugin GUIAdminTools v2.5.5
-[20:35:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:35:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[20:35:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:35:01] [Server thread/INFO]: WEPIF: Updated config file
-[20:35:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:35:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
-[20:35:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:35:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:35:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:35:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:35:03] [Server thread/INFO]: Preparing level "world"
-[20:35:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:35:05] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:35:05] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 393.3ms
-[20:35:05] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:05] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:06] [Server thread/INFO]: Time elapsed: 1366 ms
-[20:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:35:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:06] [Server thread/INFO]: Time elapsed: 243 ms
-[20:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:35:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:35:06] [Server thread/INFO]: Time elapsed: 147 ms
-[20:35:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
-[20:35:06] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
-[20:35:06] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
-[20:35:06] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
-[20:35:07] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[20:35:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
-[20:35:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:35:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:35:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
-[20:35:07] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[20:35:07] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[20:35:07] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[20:35:07] [Server thread/INFO]: [Essentials] Done converting random teleport config.
-[20:35:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
-[20:35:07] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[20:35:07] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
-[20:35:07] [Server thread/INFO]: [Essentials] Using locale en
-[20:35:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:35:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:35:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:35:07] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:35:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[20:35:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[20:35:08] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[20:35:08] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[20:35:08] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[20:35:08] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[20:35:08] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[20:35:08] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.0
-[20:35:08] [Server thread/ERROR]: Error occurred while enabling EssentialsSpawn v2.17.0.0 (Is it up to date?)
-java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
-	at EssentialsXSpawn-2.17.0.0.jar/com.earth2me.essentials.spawn.EssentialsSpawn.onEnable(EssentialsSpawn.java:29) ~[EssentialsXSpawn-2.17.0.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:655) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:604) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:768) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:530) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:326) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:35:08] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.0.0
-[20:35:08] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:35:08] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:35:08] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[20:35:08] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:35:08] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 2808418064128542682
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2808418064128542682
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -32 Y: 63 Z: 32 P: 0 Y: 0 
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:-25.50,63.00,37.50:0.00:0.00
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2808418064128542682
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Original Location: X: -32 Y: 63 Z: 32 P: 0 Y: 0 
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_the_end' is located at: world_the_end:-26.50,61.00,27.50:0.00:0.00
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[20:35:08] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[20:35:08] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:35:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[20:35:09] [Server thread/INFO]: [GUIAdminTools] Enabling GUIAdminTools v2.5.5
-[20:35:09] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
-[20:35:09] [Server thread/INFO]:  
-[20:35:09] [Server thread/INFO]: VERSION: 2.5.5
-[20:35:09] [Server thread/INFO]:  
-[20:35:09] [Server thread/INFO]: LOADING ALL SERVICES...
-[20:35:09] [Server thread/INFO]: LOADED ALL SERVICES
-[20:35:09] [Server thread/INFO]:  
-[20:35:09] [Server thread/INFO]: LOADED METRICS
-[20:35:09] [Server thread/INFO]:  
-[20:35:09] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
-[20:35:09] [Server thread/INFO]: NO JoinLeaveManager
-[20:35:09] [Server thread/INFO]:  
-[20:35:09] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
-[20:35:09] [Server thread/INFO]: [spark] Starting background profiler...
-[20:35:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:35:09] [Server thread/INFO]: [Geyser-Spigot] 
-[20:35:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b721 (git-master-1eedf19)
-[20:35:09] [Server thread/INFO]: [Geyser-Spigot] 
-[20:35:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:35:14] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1124
-[20:35:14] [Server thread/INFO]: [Geyser-Spigot] Done (4.722s)! Run /geyser help for help!
-[20:35:14] [Server thread/INFO]: Done preparing level "world" (10.672s)
-[20:35:14] [Server thread/INFO]: Running delayed init tasks
-[20:35:14] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:35:14] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:35:14] [Server thread/INFO]: Done (28.876s)! For help, type "help"
-[20:35:14] [Craft Scheduler Thread - 0 - GUIAdminTools/INFO]: [GUIAdminTools] There is a new update available.
-[20:35:24] [Server thread/INFO]: Server Plugins (9):
-[20:35:24] [Server thread/INFO]: Bukkit Plugins:
-[20:35:24] [Server thread/INFO]:  - Essentials, EssentialsSpawn, floodgate, Geyser-Spigot, GUIAdminTools, Multiverse-Core, ViaVersion, WorldEdit, WorldGuard
-[20:35:45] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
-[20:35:45] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
-[20:35:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
-[20:35:46] [Server thread/INFO]: .Luisg8988 joined the game
-[20:35:46] [Server thread/INFO]: .Luisg8988[/127.0.0.1:0] logged in with entity id 83 at ([world]6.452675, 74.81178, 29.189863)
-[20:35:47] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
-[20:36:12] [Server thread/INFO]: .Luisg8988 issued server command: /mv create
-[20:37:09] [Server thread/INFO]: .Luisg8988 issued server command: /mv create World spawn normal -t flat
-[20:37:25] [Server thread/INFO]: .Luisg8988 issued server command: /mvtp spawn
-[20:37:52] [Server thread/INFO]: .Luisg8988 issued server command: /mv create
-[20:38:47] [Server thread/INFO]: .Luisg8988 issued server command: /mv create spawn normal -t flat
-[20:38:47] [Server thread/INFO]: .Luisg8988: Starting creation of world 'spawn'...
-[20:38:47] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'spawn' - Env: NORMAL - Type: FLAT
-[20:38:47] [Server thread/ERROR]: No key layers in MapLike[{}]
-[20:38:47] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[20:38:47] [Server thread/INFO]: Preparing spawn area: 0%
-[20:38:48] [Server thread/INFO]: Preparing spawn area: 77%
-[20:38:48] [Server thread/INFO]: Time elapsed: 507 ms
-[20:38:48] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[20:38:48] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[20:38:48] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[20:38:48] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[20:38:48] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[20:38:48] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[20:38:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[20:38:48] [Server thread/INFO]: .Luisg8988: Complete!
-[20:39:03] [Server thread/INFO]: .Luisg8988 issued server command: /mvtp spawn
-[20:41:41] [Server thread/INFO]: .Luisg8988 issued server command: /gamemode creative
-[20:42:24] [Server thread/INFO]: .Luisg8988 issued server command: /dificulty pacific
-[20:42:33] [Server thread/INFO]: .Luisg8988 issued server command: /difficulty peaceful
-[20:42:33] [Server thread/INFO]: [.Luisg8988: The difficulty has been set to Peaceful]
-[20:57:57] [Server thread/INFO]: .Luisg8988 issued server command: /schematic modern-minecraft-spawn
-[20:59:06] [Server thread/INFO]: .Luisg8988 issued server command: /schematic load modern-minecraft-spawn
-[20:59:08] [WorldEdit Task Executor - 0/WARN]: Unknown block when loading schematic: 90:0. This is most likely a bad schematic.
-[20:59:10] [WorldEdit Task Executor - 0/INFO]: .Luisg8988 loaded /workspaces/mi-servidor-2.0/servidor_minecraft/plugins/WorldEdit/schematics/modern-minecraft-spawn.schematic
-[20:59:34] [Server thread/INFO]: .Luisg8988 issued server command: //paste
-[20:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14500ms or 290 ticks behind
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-16, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-15, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-14, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-13, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-13, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-13, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-13, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-13, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-12, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-12, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-12, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-12, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-12, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-11, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-11, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-11, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-10, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-10, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-10, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-9, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-9, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-9, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-8, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-584, y=-7, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-11, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-11, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-11, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-12, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-12, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-13, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-13, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-13, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-13, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-13, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-15, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=469}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-16, z=468}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-14, z=474}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-12, z=473}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-12, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-12, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-10, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-10, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-10, z=472}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-9, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-9, z=470}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-8, z=471}
-[20:59:49] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-684, y=-7, z=471}
-[21:02:04] [Server thread/INFO]: .Luisg8988 issued server command: /setspawn
-[21:02:04] [Server thread/ERROR]: Command exception: /setspawn
-org.bukkit.command.CommandException: Cannot execute command 'setspawn' in plugin EssentialsSpawn v2.17.0.0 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2302) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2256) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:02:26] [Server thread/INFO]: .Luisg8988 issued server command: /setspawn
-[21:02:26] [Server thread/ERROR]: Command exception: /setspawn
-org.bukkit.command.CommandException: Cannot execute command 'setspawn' in plugin EssentialsSpawn v2.17.0.0 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2302) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2256) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[21:02:59] [Server thread/INFO]: .Luisg8988 issued server command: /setspawn
-[21:02:59] [Server thread/ERROR]: Command exception: /setspawn
-org.bukkit.command.CommandException: Cannot execute command 'setspawn' in plugin EssentialsSpawn v2.17.0.0 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2302) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2256) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:48:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[23:48:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[23:48:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:48:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[23:48:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - Essentials (2.21.0-dev+144-d31ff55), EssentialsSpawn (2.21.0-dev+144-d31ff55), EssentialsWarpGUI (3.1), GUIAdminTools (2.5.5), Geyser-Spigot (2.5.0-SNAPSHOT), Multiverse-Core (4.3.1-b861), ServersNPC (4.9), ViaVersion (5.1.1), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[23:48:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:48:44] [ServerMain/INFO]: Loaded 1337 recipes
+[23:48:44] [ServerMain/INFO]: Loaded 1448 advancements
+[23:48:44] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[23:48:44] [Server thread/INFO]: Loading properties
+[23:48:44] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[23:48:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:48:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:48:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:48:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[23:48:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:48:46] [Server thread/INFO]: Default game type: SURVIVAL
+[23:48:46] [Server thread/INFO]: Generating keypair
+[23:48:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:48:46] [Server thread/INFO]: Using epoll channel type
+[23:48:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:48:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:48:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[23:48:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74a946aa]
+[23:48:50] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:48:51] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[23:48:51] [Server thread/INFO]: [floodgate] Took 1,275ms to boot Floodgate
+[23:48:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[23:48:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[23:48:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:48:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:48:52] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[23:48:52] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[23:48:52] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[23:48:52] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[23:48:53] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[23:48:53] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[23:48:53] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[23:48:53] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.9
+[23:48:53] [Server thread/INFO]: [GUIAdminTools] Loading server plugin GUIAdminTools v2.5.5
+[23:48:53] [Server thread/INFO]: [EssentialsWarpGUI] Loading server plugin EssentialsWarpGUI v3.1
+[23:48:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:48:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[23:48:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:48:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:48:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[23:48:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:48:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:48:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:48:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:48:55] [Server thread/INFO]: Preparing level "world"
+[23:48:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:48:57] [Server thread/INFO]: Preparing spawn area: 0%
+[23:48:57] [Server thread/INFO]: Preparing spawn area: 12%
+[23:48:57] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[23:48:58] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 387.7ms
+[23:48:58] [Server thread/INFO]: Preparing spawn area: 16%
+[23:48:58] [Server thread/INFO]: Preparing spawn area: 24%
+[23:48:58] [Server thread/INFO]: Time elapsed: 1700 ms
+[23:48:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:48:58] [Server thread/INFO]: Preparing spawn area: 0%
+[23:48:59] [Server thread/INFO]: Preparing spawn area: 65%
+[23:48:59] [Server thread/INFO]: Time elapsed: 542 ms
+[23:48:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:48:59] [Server thread/INFO]: Preparing spawn area: 0%
+[23:48:59] [Server thread/INFO]: Time elapsed: 166 ms
+[23:48:59] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[23:49:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[23:49:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[23:49:00] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[23:49:00] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[23:49:00] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[23:49:00] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[23:49:00] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[23:49:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[23:49:00] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsWarpGUI to the same version.
+[23:49:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:49:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:49:01] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[23:49:01] [Server thread/INFO]: [Essentials] Using locale en
+[23:49:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:49:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:49:01] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[23:49:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[23:49:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[23:49:02] [Server thread/INFO]: [WorldGuard] Loading region data...
+[23:49:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[23:49:02] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[23:49:02] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[23:49:02] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[23:49:02] [Server thread/INFO]: Preparing spawn area: 0%
+[23:49:03] [Server thread/INFO]: Preparing spawn area: 12%
+[23:49:03] [Server thread/INFO]: Time elapsed: 863 ms
+[23:49:03] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[23:49:03] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[23:49:03] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[23:49:03] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[23:49:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[23:49:03] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[23:49:03] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[23:49:03] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[23:49:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[23:49:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[23:49:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[23:49:04] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.9
+[23:49:04] [Server thread/INFO]: [GUIAdminTools] Enabling GUIAdminTools v2.5.5
+[23:49:04] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[23:49:04] [Server thread/INFO]:  
+[23:49:04] [Server thread/INFO]: VERSION: 2.5.5
+[23:49:04] [Server thread/INFO]:  
+[23:49:04] [Server thread/INFO]: LOADING ALL SERVICES...
+[23:49:04] [Server thread/INFO]: LOADED ALL SERVICES
+[23:49:04] [Server thread/INFO]:  
+[23:49:04] [Server thread/INFO]: LOADED METRICS
+[23:49:04] [Server thread/INFO]:  
+[23:49:04] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[23:49:04] [Server thread/INFO]: NO JoinLeaveManager
+[23:49:04] [Server thread/INFO]:  
+[23:49:04] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[23:49:04] [Server thread/INFO]: [EssentialsWarpGUI] Enabling EssentialsWarpGUI v3.1
+[23:49:05] [Server thread/INFO]: [spark] Starting background profiler...
+[23:49:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:49:06] [Server thread/INFO]: [Geyser-Spigot] 
+[23:49:06] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b721 (git-master-1eedf19)
+[23:49:06] [Server thread/INFO]: [Geyser-Spigot] 
+[23:49:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[23:49:11] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1124
+[23:49:11] [Server thread/INFO]: [Geyser-Spigot] Done (4.977s)! Run /geyser help for help!
+[23:49:11] [Server thread/INFO]: Done preparing level "world" (15.750s)
+[23:49:11] [Server thread/INFO]: Running delayed init tasks
+[23:49:11] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:49:11] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:49:11] [Server thread/INFO]: Done (43.999s)! For help, type "help"
+[23:49:12] [Craft Scheduler Thread - 2 - GUIAdminTools/INFO]: [GUIAdminTools] There is a new update available.
+[23:49:28] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
+[23:49:28] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
+[23:49:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
+[23:49:29] [Server thread/INFO]: .Luisg8988 joined the game
+[23:49:29] [Server thread/INFO]: .Luisg8988[/127.0.0.1:0] logged in with entity id 56 at ([spawn]-633.2988, -13.0, 472.9225)
+[23:51:10] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 add &a&SURVIVAL
+[23:51:35] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 &a& SURVIVAL
+[23:53:01] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 add &a&|SURVIVAL
+[23:53:55] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 remove 0
+[23:54:36] [Server thread/INFO]: .Luisg8988 issued server command: /znpc lines 1 remove 0
+[23:56:26] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 add &eclick para tp
+[23:57:29] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 remove
+[23:57:29] [Server thread/WARN]: io.github.gonalez.znpcs.commands.CommandExecuteException
+[23:57:29] [Server thread/WARN]: 	at znpcs-4.9.jar//io.github.gonalez.znpcs.commands.CommandInvoker.execute(CommandInvoker.java:25)
+[23:57:29] [Server thread/WARN]: 	at znpcs-4.9.jar//io.github.gonalez.znpcs.commands.Command.execute(Command.java:69)
+[23:57:29] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[23:57:29] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2302)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2256)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344)
+[23:57:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340)
+[23:57:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:57:29] [Server thread/WARN]: Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+[23:57:29] [Server thread/WARN]: 	at com.google.common.collect.RegularImmutableList.get(RegularImmutableList.java:77)
+[23:57:29] [Server thread/WARN]: 	at znpcs-4.9.jar//io.github.gonalez.znpcs.commands.list.DefaultCommand.changeLines(DefaultCommand.java:286)
+[23:57:29] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[23:57:29] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[23:57:29] [Server thread/WARN]: 	at znpcs-4.9.jar//io.github.gonalez.znpcs.commands.CommandInvoker.execute(CommandInvoker.java:23)
+[23:57:29] [Server thread/WARN]: 	... 28 more
+[23:57:47] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 remove 2
+[23:58:04] [Server thread/INFO]: .Luisg8988 issued server command: /znpcs lines 1 remove 1

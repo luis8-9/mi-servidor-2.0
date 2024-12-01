@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733091407962
+  login: 1733091048045
+money: '0'
+last-account-name: .luis95140
+logoutlocation:
+  world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
+  world-name: world
+  x: -45.69999
+  y: 66.0
+  z: 26.355883
+  yaw: 87.5321044921875
+  pitch: 2.1532745361328125
