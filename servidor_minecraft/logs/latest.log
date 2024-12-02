@@ -7,3 +7,11 @@
 [00:05:59] [Server thread/INFO]: .Luisg8988 issued server command: /warpcfg displayname SURVIVAL &aSURVIVAL
 [00:06:57] [Server thread/INFO]: .Luisg8988 issued server command: /warpcfg icon SURVIVAL GRASS_BLOCK
 [00:07:03] [Server thread/INFO]: .Luisg8988 issued server command: /warp
+[00:08:33] [Server thread/INFO]: .Luisg8988 issued server command: /warpcfg lore SURVIVAL add &fInicia tu aventura en el servidor
+[00:08:44] [Server thread/INFO]: .Luisg8988 issued server command: /spawn
+[00:08:56] [Server thread/INFO]: .Luisg8988 issued server command: /warp
+[00:10:56] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 has disconnected from the Java server because of Bedrock client timed out
+[00:10:56] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Luisg8988 disconnected
+[00:10:56] [Server thread/INFO]: .Luisg8988 lost connection: Disconnected
+[00:10:56] [Server thread/INFO]: .Luisg8988 left the game
+[00:11:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
