@@ -227,3 +227,12 @@ java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagMan
 [04:33:14] [Server thread/INFO]: _Luisg8988 joined the game
 [04:33:14] [Server thread/INFO]: _Luisg8988[/127.0.0.1:0] logged in with entity id 128 at ([spawn]-634.0895, -12.58, 458.62778)
 [04:37:22] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola
+[04:44:56] [localSession-7-3/INFO]: [Geyser-Spigot] Luisg8988 has disconnected from the Java server because of Bedrock client disconnected
+[04:44:56] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 disconnected
+[04:44:56] [Server thread/INFO]: _Luisg8988 lost connection: Disconnected
+[04:44:56] [Server thread/INFO]: _Luisg8988 left the game
+[04:45:03] [localSession-7-2/INFO]: [Geyser-Spigot] BrutishBoss326 has disconnected from the Java server because of Bedrock client disconnected
+[04:45:03] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as _BrutishBoss326 disconnected
+[04:45:03] [Server thread/INFO]: _BrutishBoss326 lost connection: Disconnected
+[04:45:03] [Server thread/INFO]: _BrutishBoss326 left the game
+[04:46:03] [Server thread/INFO]: Server empty for 60 seconds, pausing

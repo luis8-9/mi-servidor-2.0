@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733113116087
+  logout: 1733114703717
   login: 1733113927363
 money: '0'
 last-account-name: _BrutishBoss326
@@ -29,10 +29,10 @@ lastlocation:
   yaw: 0.0
   pitch: 0.0
 logoutlocation:
-  world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
-  world-name: world
-  x: 80.5
-  y: 64.0
-  z: 357.5
-  yaw: -146.74172973632812
-  pitch: 4.4937744140625
+  world: 70240627-5191-432b-8c30-cd3214eb0f4f
+  world-name: spawn
+  x: -640.7261
+  y: -13.0
+  z: 475.456
+  yaw: 127.51763916015625
+  pitch: 2.893280029296875
