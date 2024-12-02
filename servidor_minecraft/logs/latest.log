@@ -227,3 +227,22 @@ java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagMan
 [03:41:43] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
 [03:42:04] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
 [03:42:30] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
+[03:47:27] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode survival
+[03:47:46] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
+[03:49:52] [Server thread/INFO]: _Luisg8988 issued server command: /time set day
+[03:50:12] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 has disconnected from the Java server because of Bedrock client timed out
+[03:50:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 disconnected
+[03:50:12] [Server thread/INFO]: _Luisg8988 lost connection: Disconnected
+[03:50:12] [Server thread/INFO]: _Luisg8988 left the game
+[03:50:41] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
+[03:50:41] [localSession-7-3/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
+[03:50:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
+[03:50:41] [Server thread/INFO]: _Luisg8988 joined the game
+[03:50:41] [Server thread/INFO]: _Luisg8988[/127.0.0.1:0] logged in with entity id 2100 at ([world]75.48626, 62.9375, 356.75034)
+[03:51:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola
+[03:51:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola
+[03:51:51] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
+[03:52:15] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
+[03:52:27] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
+[03:53:24] [Server thread/INFO]: _Luisg8988 issued server command: /spawn
+[03:53:39] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
