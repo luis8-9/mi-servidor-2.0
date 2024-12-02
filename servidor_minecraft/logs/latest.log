@@ -1,144 +1,144 @@
-[03:33:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:33:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[03:33:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:33:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
-[03:33:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+[04:31:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:31:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[04:31:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:31:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[04:31:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
  - Essentials (2.21.0-dev+144-d31ff55), EssentialsChat (2.21.0-dev+144-d31ff55), EssentialsSpawn (2.21.0-dev+144-d31ff55), EssentialsWarpGUI (3.1), GUIAdminTools (2.5.5), Geyser-Spigot (2.5.0-SNAPSHOT), LuckPerms (5.4.131), Multiverse-Core (4.3.1-b861), NametagEdit (4.5.23), ServersNPC (4.9), Vault (1.7.3-b131), ViaVersion (5.1.1), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[03:33:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:33:47] [ServerMain/INFO]: Loaded 1337 recipes
-[03:33:47] [ServerMain/INFO]: Loaded 1448 advancements
-[03:33:47] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[03:33:47] [Server thread/INFO]: Loading properties
-[03:33:47] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[03:33:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:33:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:33:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:33:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:33:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:33:49] [Server thread/INFO]: Default game type: SURVIVAL
-[03:33:49] [Server thread/INFO]: Generating keypair
-[03:33:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:33:49] [Server thread/INFO]: Using epoll channel type
-[03:33:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:33:49] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:33:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[03:33:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[03:33:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[03:33:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[03:33:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[03:33:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[03:33:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[03:33:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@72db892c]
-[03:33:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[03:33:53] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[03:33:53] [Server thread/INFO]: [floodgate] Took 580ms to boot Floodgate
-[03:33:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
-[03:33:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
-[03:33:53] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[03:33:53] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[03:33:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[03:33:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[03:33:54] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
-[03:33:54] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.9
-[03:33:54] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+144-d31ff55
-[03:33:54] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
-[03:33:54] [Server thread/INFO]: [GUIAdminTools] Loading server plugin GUIAdminTools v2.5.5
-[03:33:54] [Server thread/INFO]: [EssentialsWarpGUI] Loading server plugin EssentialsWarpGUI v3.1
-[03:33:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:33:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[03:33:54] [Server thread/INFO]:         __    
-[03:33:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[03:33:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:33:54] [Server thread/INFO]: 
-[03:33:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:33:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:33:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:33:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:33:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1288ms)
-[03:33:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[03:33:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[03:33:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[03:33:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[03:33:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[03:33:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[03:33:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:33:55] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[03:33:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
-[03:33:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:33:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:33:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:33:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:33:57] [Server thread/INFO]: Preparing level "world"
-[03:33:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:33:58] [Server thread/INFO]: Preparing spawn area: 0%
-[03:33:59] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[03:33:59] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 291.9ms
-[03:33:59] [Server thread/INFO]: Preparing spawn area: 2%
-[03:33:59] [Server thread/INFO]: Preparing spawn area: 12%
-[03:33:59] [Server thread/INFO]: Time elapsed: 1305 ms
-[03:33:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:33:59] [Server thread/INFO]: Preparing spawn area: 0%
-[03:34:00] [Server thread/INFO]: Time elapsed: 262 ms
-[03:34:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:34:00] [Server thread/INFO]: Preparing spawn area: 0%
-[03:34:00] [Server thread/INFO]: Time elapsed: 89 ms
-[03:34:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[03:34:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[03:34:00] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[03:34:00] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[03:34:00] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[03:34:00] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[03:34:00] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[03:34:00] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[03:34:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
-[03:34:00] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsWarpGUI to the same version.
-[03:34:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[03:34:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[03:34:01] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[03:34:01] [Server thread/INFO]: [Essentials] Using locale en
-[03:34:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[03:34:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[03:34:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[03:34:01] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[03:34:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[03:34:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[03:34:01] [Server thread/INFO]: [WorldGuard] Loading region data...
-[03:34:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[03:34:02] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[03:34:02] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[03:34:02] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[03:34:02] [Server thread/INFO]: Preparing spawn area: 0%
-[03:34:02] [Server thread/INFO]: Time elapsed: 433 ms
-[03:34:02] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[03:34:02] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[03:34:02] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
-[03:34:02] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[03:34:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[03:34:03] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[03:34:03] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[03:34:03] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[03:34:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[03:34:03] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
-[03:34:03] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[03:34:03] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.9
-[03:34:03] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+144-d31ff55
-[03:34:03] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[03:34:03] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
-[03:34:03] [Server thread/ERROR]: Error occurred while enabling NametagEdit v4.5.23 (Is it up to date?)
+[04:31:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:31:22] [ServerMain/INFO]: Loaded 1337 recipes
+[04:31:22] [ServerMain/INFO]: Loaded 1448 advancements
+[04:31:22] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[04:31:22] [Server thread/INFO]: Loading properties
+[04:31:23] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[04:31:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:31:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:31:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:31:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:31:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:31:24] [Server thread/INFO]: Default game type: SURVIVAL
+[04:31:24] [Server thread/INFO]: Generating keypair
+[04:31:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:31:25] [Server thread/INFO]: Using epoll channel type
+[04:31:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:31:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:31:27] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[04:31:27] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[04:31:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:31:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:31:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[04:31:28] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[04:31:28] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[04:31:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@60de9ac8]
+[04:31:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:31:29] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:31:29] [Server thread/INFO]: [floodgate] Took 806ms to boot Floodgate
+[04:31:29] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+144-d31ff55
+[04:31:29] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[04:31:29] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[04:31:30] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[04:31:30] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:31:30] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:31:30] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+144-d31ff55
+[04:31:30] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v4.9
+[04:31:30] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+144-d31ff55
+[04:31:30] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[04:31:30] [Server thread/INFO]: [GUIAdminTools] Loading server plugin GUIAdminTools v2.5.5
+[04:31:30] [Server thread/INFO]: [EssentialsWarpGUI] Loading server plugin EssentialsWarpGUI v3.1
+[04:31:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:31:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[04:31:31] [Server thread/INFO]:         __    
+[04:31:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[04:31:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:31:31] [Server thread/INFO]: 
+[04:31:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:31:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:31:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:31:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:31:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1576ms)
+[04:31:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:31:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[04:31:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:31:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:31:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[04:31:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[04:31:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:31:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[04:31:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[04:31:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:31:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:31:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:31:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:31:34] [Server thread/INFO]: Preparing level "world"
+[04:31:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:31:35] [Server thread/INFO]: Preparing spawn area: 0%
+[04:31:35] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:31:36] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 329.6ms
+[04:31:36] [Server thread/INFO]: Preparing spawn area: 2%
+[04:31:36] [Server thread/INFO]: Preparing spawn area: 18%
+[04:31:36] [Server thread/INFO]: Time elapsed: 1225 ms
+[04:31:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:31:36] [Server thread/INFO]: Preparing spawn area: 0%
+[04:31:36] [Server thread/INFO]: Time elapsed: 224 ms
+[04:31:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:31:36] [Server thread/INFO]: Preparing spawn area: 0%
+[04:31:36] [Server thread/INFO]: Time elapsed: 134 ms
+[04:31:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[04:31:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[04:31:37] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[04:31:37] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[04:31:37] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[04:31:37] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[04:31:37] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[04:31:37] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:31:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+144-d31ff55
+[04:31:37] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsWarpGUI to the same version.
+[04:31:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:31:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:31:38] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[04:31:38] [Server thread/INFO]: [Essentials] Using locale en
+[04:31:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:31:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:31:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[04:31:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[04:31:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[04:31:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[04:31:38] [Server thread/INFO]: [WorldGuard] Loading region data...
+[04:31:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[04:31:39] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[04:31:39] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[04:31:39] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[04:31:39] [Server thread/INFO]: Preparing spawn area: 0%
+[04:31:39] [Server thread/INFO]: Time elapsed: 300 ms
+[04:31:39] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[04:31:39] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[04:31:39] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[04:31:39] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[04:31:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[04:31:39] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[04:31:39] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[04:31:39] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[04:31:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[04:31:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+144-d31ff55
+[04:31:40] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[04:31:40] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v4.9
+[04:31:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+144-d31ff55
+[04:31:40] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[04:31:40] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[04:31:40] [Server thread/ERROR]: Error occurred while enabling NametagEdit v4.5.23 (Is it up to date?)
 java.lang.ExceptionInInitializerError: null
 	at NametagEdit.jar/com.nametagedit.plugin.packets.PacketWrapper.<clinit>(PacketWrapper.java:28) ~[NametagEdit.jar:?]
 	at NametagEdit.jar/com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:103) ~[NametagEdit.jar:?]
@@ -158,8 +158,8 @@ java.lang.ExceptionInInitializerError: null
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at NametagEdit.jar/com.nametagedit.plugin.packets.PacketAccessor.<clinit>(PacketAccessor.java:15) ~[NametagEdit.jar:?]
 	... 15 more
-[03:34:03] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
-[03:34:03] [Server thread/ERROR]: Error occurred while disabling NametagEdit v4.5.23
+[04:31:40] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[04:31:40] [Server thread/ERROR]: Error occurred while disabling NametagEdit v4.5.23
 java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagManager.reset()" because "this.manager" is null
 	at NametagEdit.jar/com.nametagedit.plugin.NametagEdit.onDisable(NametagEdit.java:86) ~[NametagEdit.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
@@ -177,236 +177,53 @@ java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagMan
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1234) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[03:34:03] [Server thread/INFO]: [GUIAdminTools] Enabling GUIAdminTools v2.5.5
-[03:34:03] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
-[03:34:03] [Server thread/INFO]:  
-[03:34:03] [Server thread/INFO]: VERSION: 2.5.5
-[03:34:03] [Server thread/INFO]:  
-[03:34:03] [Server thread/INFO]: LOADING ALL SERVICES...
-[03:34:03] [Server thread/INFO]: LOADED ALL SERVICES
-[03:34:03] [Server thread/INFO]:  
-[03:34:03] [Server thread/INFO]: LOADED METRICS
-[03:34:03] [Server thread/INFO]:  
-[03:34:03] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
-[03:34:03] [Server thread/INFO]: NO JoinLeaveManager
-[03:34:03] [Server thread/INFO]:  
-[03:34:03] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
-[03:34:03] [Server thread/INFO]: [EssentialsWarpGUI] Enabling EssentialsWarpGUI v3.1
-[03:34:04] [Server thread/INFO]: [spark] Starting background profiler...
-[03:34:04] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:34:04] [Server thread/INFO]: [Geyser-Spigot] 
-[03:34:04] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b721 (git-master-1eedf19)
-[03:34:04] [Server thread/INFO]: [Geyser-Spigot] 
-[03:34:04] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:34:05] [pool-19-thread-1/WARN]: [floodgate] 
+[04:31:40] [Server thread/INFO]: [GUIAdminTools] Enabling GUIAdminTools v2.5.5
+[04:31:40] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[04:31:40] [Server thread/INFO]:  
+[04:31:40] [Server thread/INFO]: VERSION: 2.5.5
+[04:31:40] [Server thread/INFO]:  
+[04:31:40] [Server thread/INFO]: LOADING ALL SERVICES...
+[04:31:40] [Server thread/INFO]: LOADED ALL SERVICES
+[04:31:40] [Server thread/INFO]:  
+[04:31:40] [Server thread/INFO]: LOADED METRICS
+[04:31:40] [Server thread/INFO]:  
+[04:31:40] [Server thread/INFO]: LOADING SOFT DEPENDENCIES...
+[04:31:40] [Server thread/INFO]: NO JoinLeaveManager
+[04:31:40] [Server thread/INFO]:  
+[04:31:40] [Server thread/INFO]: -----GUI ADMIN TOOLS FREE-----
+[04:31:40] [Server thread/INFO]: [EssentialsWarpGUI] Enabling EssentialsWarpGUI v3.1
+[04:31:41] [Server thread/INFO]: [spark] Starting background profiler...
+[04:31:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:31:41] [Server thread/INFO]: [Geyser-Spigot] 
+[04:31:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b721 (git-master-1eedf19)
+[04:31:41] [Server thread/INFO]: [Geyser-Spigot] 
+[04:31:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:31:42] [pool-19-thread-1/WARN]: [floodgate] 
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[03:34:08] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1124
-[03:34:08] [Server thread/INFO]: [Geyser-Spigot] Done (3.967s)! Run /geyser help for help!
-[03:34:08] [Server thread/INFO]: Done preparing level "world" (10.755s)
-[03:34:08] [Server thread/INFO]: Running delayed init tasks
-[03:34:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[03:34:08] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[03:34:08] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[03:34:08] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
-[03:34:08] [Server thread/INFO]: Done (28.484s)! For help, type "help"
-[03:34:08] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
-[03:34:08] [Craft Scheduler Thread - 4 - GUIAdminTools/INFO]: [GUIAdminTools] There is not a new update available.
-[03:35:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:35:17] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
-[03:35:17] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
-[03:35:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
-[03:35:18] [Server thread/INFO]: _Luisg8988 joined the game
-[03:35:18] [Server thread/INFO]: _Luisg8988[/127.0.0.1:0] logged in with entity id 105 at ([world]83.62719, 63.0, 361.47253)
-[03:35:43] [Server thread/INFO]: _Luisg8988 issued server command: /time set day
-[03:39:00] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
-[03:41:26] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
-[03:41:43] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
-[03:42:04] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
-[03:42:30] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
-[03:47:27] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode survival
-[03:47:46] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
-[03:49:52] [Server thread/INFO]: _Luisg8988 issued server command: /time set day
-[03:50:12] [localSession-7-2/INFO]: [Geyser-Spigot] Luisg8988 has disconnected from the Java server because of Bedrock client timed out
-[03:50:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 disconnected
-[03:50:12] [Server thread/INFO]: _Luisg8988 lost connection: Disconnected
-[03:50:12] [Server thread/INFO]: _Luisg8988 left the game
-[03:50:41] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
-[03:50:41] [localSession-7-3/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
-[03:50:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
-[03:50:41] [Server thread/INFO]: _Luisg8988 joined the game
-[03:50:41] [Server thread/INFO]: _Luisg8988[/127.0.0.1:0] logged in with entity id 2100 at ([world]75.48626, 62.9375, 356.75034)
-[03:51:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola
-[03:51:10] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola
-[03:51:51] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
-[03:52:15] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
-[03:52:27] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
-[03:53:24] [Server thread/INFO]: _Luisg8988 issued server command: /spawn
-[03:53:39] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
-[03:54:11] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
-[03:54:49] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
-[03:55:01] [Server thread/INFO]: _Luisg8988 issued server command: /expand vert
-[03:55:18] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
-[03:56:52] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username luis95140
-[03:56:52] [localSession-7-4/INFO]: [Geyser-Spigot] luis95140 (logged in as: luis95140) has connected to the Java server
-[03:56:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as _luis95140 joined (UUID: 00000000-0000-0000-0009-01f24d603fbc)
-[03:56:53] [Server thread/INFO]: _luis95140 (formerly known as .luis95140) joined the game
-[03:56:53] [Server thread/INFO]: _luis95140[/127.0.0.1:0] logged in with entity id 2792 at ([world]80.856514, 63.0, 354.24603)
-[03:57:55] [Server thread/INFO]: _luis95140 issued server command: /spawn
-[03:58:13] [Server thread/WARN]: _luis95140 was kicked for floating too long!
-[03:58:13] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as _luis95140 disconnected
-[03:58:13] [localSession-7-4/INFO]: [Geyser-Spigot] luis95140 has disconnected from the Java server because of No está permitido volar en este servidor
-[03:58:13] [Server thread/INFO]: _luis95140 lost connection: Flying is not enabled on this server
-[03:58:13] [Server thread/INFO]: _luis95140 left the game
-[03:58:33] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username luis95140
-[03:58:33] [localSession-7-1/INFO]: [Geyser-Spigot] luis95140 (logged in as: luis95140) has connected to the Java server
-[03:58:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as _luis95140 joined (UUID: 00000000-0000-0000-0009-01f24d603fbc)
-[03:58:33] [Server thread/INFO]: _luis95140 joined the game
-[03:58:33] [Server thread/INFO]: _luis95140[/127.0.0.1:0] logged in with entity id 3220 at ([spawn]-633.33344, -16.0, 525.9382)
-[03:59:13] [Server thread/WARN]: _luis95140 moved too quickly! 7.820369999999912,0.0,-6.511349999999993
-[04:01:33] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
-[04:03:26] [Server thread/INFO]: _luis95140 tried to swim in lava
-[04:04:23] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
-[04:04:31] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
-[04:04:47] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
-[04:04:58] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
-[04:05:20] [Server thread/INFO]: _luis95140 was slain by Zombie
-[04:05:26] [Server thread/INFO]: _Luisg8988 issued server command: /time set day
-[04:05:43] [Server thread/INFO]: _luis95140 issued server command: /back
-[04:06:25] [Server thread/INFO]: _luis95140 was slain by Zombie
-[04:06:39] [Server thread/INFO]: _luis95140 issued server command: /back
-[04:07:02] [Server thread/INFO]: _Luisg8988 issued server command: /weather clear
-[04:07:12] [Server thread/INFO]: _luis95140 was slain by Zombie
-[04:07:24] [Server thread/INFO]: _luis95140 issued server command: /back
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.874474000000006,1.252200000000002,4.531499999999994
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved too quickly! -8.957334000000003,1.2491799999999955,4.2786499999999705
-[04:08:21] [Server thread/WARN]: _luis95140 moved wrongly!
-[04:09:34] [localSession-7-1/INFO]: [Geyser-Spigot] luis95140 has disconnected from the Java server because of Bedrock client disconnected
-[04:09:34] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as _luis95140 disconnected
-[04:09:34] [Server thread/INFO]: _luis95140 lost connection: Disconnected
-[04:09:34] [Server thread/INFO]: _luis95140 left the game
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.47032999999999,-5.171229999999994,-27.034609999999986
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:11:20] [Server thread/WARN]: _Luisg8988 moved too quickly! 4.550089999999997,-5.171229999999994,-26.72417999999999
-[04:12:50] [localSession-7-3/INFO]: [Geyser-Spigot] Luisg8988 has disconnected from the Java server because of Bedrock client disconnected
-[04:12:50] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 disconnected
-[04:12:50] [Server thread/INFO]: _Luisg8988 lost connection: Disconnected
-[04:12:50] [Server thread/INFO]: _Luisg8988 left the game
-[04:13:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:31:45] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1124
+[04:31:45] [Server thread/INFO]: [Geyser-Spigot] Done (4.014s)! Run /geyser help for help!
+[04:31:45] [Server thread/INFO]: Done preparing level "world" (11.109s)
+[04:31:45] [Server thread/INFO]: Running delayed init tasks
+[04:31:45] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:31:45] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[04:31:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:31:45] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[04:31:45] [Server thread/INFO]: Done (29.986s)! For help, type "help"
+[04:31:45] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[04:31:45] [Craft Scheduler Thread - 4 - GUIAdminTools/INFO]: [GUIAdminTools] There is not a new update available.
+[04:32:06] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username BrutishBoss326
+[04:32:06] [localSession-7-2/INFO]: [Geyser-Spigot] BrutishBoss326 (logged in as: BrutishBoss326) has connected to the Java server
+[04:32:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as _BrutishBoss326 joined (UUID: 00000000-0000-0000-0009-00000cd03188)
+[04:32:07] [Server thread/INFO]: _BrutishBoss326 joined the game
+[04:32:07] [Server thread/INFO]: _BrutishBoss326[/127.0.0.1:0] logged in with entity id 105 at ([spawn]-634.9673, -13.0, 468.18927)
+[04:32:07] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 30.348020ms. Summary: Getting prefix for _BrutishBoss326
+[04:33:14] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Luisg8988
+[04:33:14] [localSession-7-3/INFO]: [Geyser-Spigot] Luisg8988 (logged in as: Luisg8988) has connected to the Java server
+[04:33:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as _Luisg8988 joined (UUID: 00000000-0000-0000-0009-01fe1b9f80b6)
+[04:33:14] [Server thread/INFO]: _Luisg8988 joined the game
+[04:33:14] [Server thread/INFO]: _Luisg8988[/127.0.0.1:0] logged in with entity id 128 at ([spawn]-634.0895, -12.58, 458.62778)
+[04:37:22] [Async Chat Thread - #0/INFO]: [Not Secure] <ADMIN _Luisg8988> hola

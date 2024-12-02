@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1733112078833
+  lastteleport: 1733113199536
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1733112770633
-  login: 1733111441460
+  login: 1733113994534
 money: '0'
 last-account-name: _Luisg8988
 logoutlocation:
@@ -29,12 +29,12 @@ logoutlocation:
   yaw: 123.79171752929688
   pitch: 9.895904541015625
 lastlocation:
-  world: 70240627-5191-432b-8c30-cd3214eb0f4f
-  world-name: spawn
-  x: -633.4073
-  y: -13.0
-  z: 472.64703
-  yaw: 148.19833374023438
-  pitch: 22.812835693359375
+  world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
+  world-name: world
+  x: 86.51923
+  y: 62.9375
+  z: 357.644
+  yaw: -168.84117126464844
+  pitch: 11.252761840820312
 past-usernames:
 - .Luisg8988

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1733113262359
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733113116087
+  login: 1733113927363
+money: '0'
+last-account-name: _BrutishBoss326
+lastlocation:
+  world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
+  world-name: world
+  x: 80.5
+  y: 63.0
+  z: 357.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
+  world-name: world
+  x: 80.5
+  y: 64.0
+  z: 357.5
+  yaw: -146.74172973632812
+  pitch: 4.4937744140625
