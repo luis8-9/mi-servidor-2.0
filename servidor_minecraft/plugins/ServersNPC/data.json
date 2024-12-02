@@ -15,10 +15,18 @@
     },
     "npcType": "PLAYER",
     "hologramLines": [
-      "&a&SURVIVAL"
+      "&eClick aquí para tp",
+      "&a&lSURVIVAL"
     ],
     "refreshSkinDuration": 0,
-    "clickActions": [],
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "warp SURVIVAL",
+        "delay": 0
+      }
+    ],
     "npcEquip": {},
     "npcFunctions": {},
     "customizationMap": {}
