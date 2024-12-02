@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1733111412585
+  logout: 1733112770633
   login: 1733111441460
 money: '0'
 last-account-name: _Luisg8988
 logoutlocation:
   world: 6601f3a3-8fac-4f44-b654-c69f4daf391c
   world-name: world
-  x: 75.48626
-  y: 62.9375
-  z: 356.75034
-  yaw: -73.64263916015625
-  pitch: 21.11395263671875
+  x: 79.3
+  y: 63.5
+  z: 351.89417
+  yaw: 123.79171752929688
+  pitch: 9.895904541015625
 lastlocation:
   world: 70240627-5191-432b-8c30-cd3214eb0f4f
   world-name: spawn
