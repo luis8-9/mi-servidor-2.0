@@ -246,3 +246,26 @@ java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagMan
 [03:52:27] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
 [03:53:24] [Server thread/INFO]: _Luisg8988 issued server command: /spawn
 [03:53:39] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
+[03:54:11] [Server thread/INFO]: _Luisg8988 issued server command: //pos1
+[03:54:49] [Server thread/INFO]: _Luisg8988 issued server command: //pos2
+[03:55:01] [Server thread/INFO]: _Luisg8988 issued server command: /expand vert
+[03:55:18] [Server thread/INFO]: _Luisg8988 issued server command: //expand vert
+[03:56:52] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username luis95140
+[03:56:52] [localSession-7-4/INFO]: [Geyser-Spigot] luis95140 (logged in as: luis95140) has connected to the Java server
+[03:56:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as _luis95140 joined (UUID: 00000000-0000-0000-0009-01f24d603fbc)
+[03:56:53] [Server thread/INFO]: _luis95140 (formerly known as .luis95140) joined the game
+[03:56:53] [Server thread/INFO]: _luis95140[/127.0.0.1:0] logged in with entity id 2792 at ([world]80.856514, 63.0, 354.24603)
+[03:57:55] [Server thread/INFO]: _luis95140 issued server command: /spawn
+[03:58:13] [Server thread/WARN]: _luis95140 was kicked for floating too long!
+[03:58:13] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as _luis95140 disconnected
+[03:58:13] [localSession-7-4/INFO]: [Geyser-Spigot] luis95140 has disconnected from the Java server because of No está permitido volar en este servidor
+[03:58:13] [Server thread/INFO]: _luis95140 lost connection: Flying is not enabled on this server
+[03:58:13] [Server thread/INFO]: _luis95140 left the game
+[03:58:33] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username luis95140
+[03:58:33] [localSession-7-1/INFO]: [Geyser-Spigot] luis95140 (logged in as: luis95140) has connected to the Java server
+[03:58:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as _luis95140 joined (UUID: 00000000-0000-0000-0009-01f24d603fbc)
+[03:58:33] [Server thread/INFO]: _luis95140 joined the game
+[03:58:33] [Server thread/INFO]: _luis95140[/127.0.0.1:0] logged in with entity id 3220 at ([spawn]-633.33344, -16.0, 525.9382)
+[03:59:13] [Server thread/WARN]: _luis95140 moved too quickly! 7.820369999999912,0.0,-6.511349999999993
+[04:01:33] [Server thread/INFO]: _Luisg8988 issued server command: /gamemode creative
+[04:03:26] [Server thread/INFO]: _luis95140 tried to swim in lava
